@@ -4,6 +4,7 @@ const session = require("express-session");
 const bodyParser = require("body-parser");
 const passport = require("./config/passport");
 const cors = require("cors");
+const zapierRoutes = require("./routes/zapierRoutes");
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -27,7 +28,7 @@ app.get("/", (req, res) => {
 
 app.use("/auth", require("./routes/authRoutes"));
 app.use("/invoices", require("./routes/invoiceRoutes"));
-app.post("/zapier", require("./routes/zapierRoutes"));
+app.use("/zapier", zapierRoutes);
 app.get("/logout", (req, res) => {
   req.logout(() => {
     res.redirect("/");

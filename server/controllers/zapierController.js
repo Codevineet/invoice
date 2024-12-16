@@ -1,17 +1,16 @@
-const getInvoices = require("../services/invoiceService");
-const axios = require("axios"); 
+const axios = require("axios");
 
 exports.triggerZapierAutomation = async (req, res) => {
   try {
-    const overdueInvoices = await getInvoices.getInvoices();
-    if (overdueInvoices.length === 0) {
-      return res.status(200).json({ message: "No overdue invoices." });
-    }
-
+    console.log("happened");
     const zapierWebhookUrl = process.env.ZAPIER_WEBHOOK_URL;
-    await axios.post(zapierWebhookUrl, { invoices: overdueInvoices });
 
-    res.status(200).json({ message: "Automation Triggered Successfully" });
+    // Send static data or just trigger Zapier without data
+    await axios.post(zapierWebhookUrl, {
+      message: "Static Zapier Trigger", // Optional: Customize if needed
+    });
+
+    res.status(200).json({ message: "Zapier automation triggered successfully!" });
   } catch (error) {
     console.error("Error triggering Zapier automation:", error);
     res.status(500).json({ message: "Failed to trigger Zapier automation." });

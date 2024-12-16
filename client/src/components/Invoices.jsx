@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { logout, triggerZapier } from "../api/api";
+import { triggerZapier } from "../api/api";
 import Footer from "./Footer";
 import InvoiceCard from './InvoiceCard';
 import Header from "./Header";
@@ -21,12 +21,11 @@ const Invoices = () => {
             .catch((err) => console.error("Error fetching invoices:", err));
     }, []);
 
-    const handleReminder = () => {
-        triggerZapier();
+    const handleReminder = async () => {
+        console.log("Button presseed");
+      await  triggerZapier();
     }
-    const handleLogout = () => {
-        logout();
-    };
+ 
 
     const overdueInvoicesCount = invoices.filter(invoice => new Date(invoice.due_date) < new Date()).length;
     const paidInvoicesCount = invoices.filter(invoice => new Date(invoice.due_date) >= new Date()).length;
