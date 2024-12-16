@@ -66,6 +66,8 @@ invoice/
    GOOGLE_CLIENT_ID=<your-google-client-id>
    GOOGLE_CLIENT_SECRET=<your-google-client-secret>
    ZAPIER_WEBHOOK_URL=<your-zapier-webhook-url>
+   CALLBACK_URI=http://localhost:3000/auth/google/callback
+   REDIRECT_URI=http://localhost:5173/invoices
 ```
 Replace with the appropriate values for your application.
 
