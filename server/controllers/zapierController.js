@@ -5,9 +5,9 @@ exports.triggerZapierAutomation = async (req, res) => {
     console.log("happened");
     const zapierWebhookUrl = process.env.ZAPIER_WEBHOOK_URL;
 
-    // Send static data or just trigger Zapier without data
+    
     await axios.post(zapierWebhookUrl, {
-      message: "Static Zapier Trigger", // Optional: Customize if needed
+      message: "Static Zapier Trigger", 
     });
 
     res.status(200).json({ message: "Zapier automation triggered successfully!" });
