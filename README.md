@@ -66,6 +66,8 @@ invoice/
    GOOGLE_CLIENT_ID=<your-google-client-id>
    GOOGLE_CLIENT_SECRET=<your-google-client-secret>
    ZAPIER_WEBHOOK_URL=<your-zapier-webhook-url>
+   CALLBACK_URI=http://localhost:3000/auth/google/callback
+   REDIRECT_URI=http://localhost:5173/invoices
 ```
 Replace with the appropriate values for your application.
 
@@ -135,7 +137,6 @@ The application uses a local JSON file (data/invoices.json) to store invoice dat
   - Amount
   - Item purchased
   - Seller information
-  - User's location
 - Users have the option to manually trigger the Zapier automation from the frontend by clicking a button. This sends a POST request to `/zapier/trigger`.
 - The server processes this request, triggers the Zapier automation, and returns a response indicating whether the process was successful or not.
 
