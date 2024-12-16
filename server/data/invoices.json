@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1,
+        "name": "Raj Kumar",
+        "due_date": "2024-12-31",
+        "amount": 28717.75,
+        "email": "rajakumar@example.com",
+        "location": "Mumbai, India",
+        "item_purchased": "Laptop",
+        "purchase_date": "2024-11-20",
+        "seller": {
+            "name": "Tech Store Ltd.",
+            "location": "Mumbai, India"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Vineet Jindal",
+        "due_date": "2024-11-20",
+        "amount": 14741.00,
+        "email": "vineetjindal09@gmail.com",
+        "location": "Delhi, India",
+        "item_purchased": "Smartphone",
+        "purchase_date": "2024-10-15",
+        "seller": {
+            "name": "Phone Hub",
+            "location": "Delhi, India"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Sunil Sharma",
+        "due_date": "2024-12-15",
+        "amount": 18040.00,
+        "email": "sunilsharma@example.com",
+        "location": "Chennai, India",
+        "item_purchased": "Tablet",
+        "purchase_date": "2024-11-10",
+        "seller": {
+            "name": "TechWorld Inc.",
+            "location": "Chennai, India"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Asha Mishra",
+        "due_date": "2024-12-25",
+        "amount": 12302.50,
+        "email": "ashamishra@example.com",
+        "location": "Kolkata, India",
+        "item_purchased": "Headphones",
+        "purchase_date": "2024-11-05",
+        "seller": {
+            "name": "AudioMart",
+            "location": "Kolkata, India"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Vikas Patel",
+        "due_date": "2024-10-10",
+        "amount": 41000.00,
+        "email": "vikaspatel@example.com",
+        "location": "Bengaluru, India",
+        "item_purchased": "Camera",
+        "purchase_date": "2024-09-25",
+        "seller": {
+            "name": "Cameraville",
+            "location": "Bengaluru, India"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Sushma Agrawal",
+        "due_date": "2024-12-05",
+        "amount": 9919.18,
+        "email": "sushmaagrawal@example.com",
+        "location": "Pune, India",
+        "item_purchased": "Smartwatch",
+        "purchase_date": "2024-10-30",
+        "seller": {
+            "name": "Wearables Ltd.",
+            "location": "Pune, India"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kumar Singh",
+        "due_date": "2024-12-18",
+        "amount": 32836.90,
+        "email": "kumarsingh@example.com",
+        "location": "Guwahati, India",
+        "item_purchased": "Drone",
+        "purchase_date": "2024-11-02",
+        "seller": {
+            "name": "Dronetix Inc.",
+            "location": "Guwahati, India"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Meena Chaudhary",
+        "due_date": "2024-11-22",
+        "amount": 8198.18,
+        "email": "meenachoudhary@example.com",
+        "location": "Hyderabad, India",
+        "item_purchased": "Bluetooth Speaker",
+        "purchase_date": "2024-10-28",
+        "seller": {
+            "name": "Soundhouse",
+            "location": "Hyderabad, India"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Anirudh Singh",
+        "due_date": "2024-12-30",
+        "amount": 20418.00,
+        "email": "anirudhsingh@example.com",
+        "location": "Ahmedabad, India",
+        "item_purchased": "Keyboard",
+        "purchase_date": "2024-11-15",
+        "seller": {
+            "name": "Techgear",
+            "location": "Ahmedabad, India"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Lakshmi Yadav",
+        "due_date": "2024-11-12",
+        "amount": 11480.00,
+        "email": "laxmiyadav@example.com",
+        "location": "Chandigarh, India",
+        "item_purchased": "Monitor",
+        "purchase_date": "2024-10-20",
+        "seller": {
+            "name": "Monitor World",
+            "location": "Chandigarh, India"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Akash Verma",
+        "due_date": "2024-10-28",
+        "amount": 9256.50,
+        "email": "akashverma@example.com",
+        "location": "Lucknow, India",
+        "item_purchased": "Router",
+        "purchase_date": "2024-09-20",
+        "seller": {
+            "name": "Network Solutions",
+            "location": "Lucknow, India"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Divya Joshi",
+        "due_date": "2024-12-03",
+        "amount": 15248.25,
+        "email": "divyajoshi@example.com",
+        "location": "Jaipur, India",
+        "item_purchased": "Gaming Console",
+        "purchase_date": "2024-10-15",
+        "seller": {
+            "name": "GadgetZone",
+            "location": "Jaipur, India"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Rohan Mehta",
+        "due_date": "2024-10-15",
+        "amount": 4250.00,
+        "email": "rohanmehta@example.com",
+        "location": "Varanasi, India",
+        "item_purchased": "External Hard Drive",
+        "purchase_date": "2024-09-10",
+        "seller": {
+            "name": "Tech Supplies",
+            "location": "Varanasi, India"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Neha Kapoor",
+        "due_date": "2024-11-25",
+        "amount": 27989.99,
+        "email": "nehakapoor@example.com",
+        "location": "Amritsar, India",
+        "item_purchased": "Home Theatre System",
+        "purchase_date": "2024-10-05",
+        "seller": {
+            "name": "AudioWorld",
+            "location": "Amritsar, India"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Vikram Thakur",
+        "due_date": "2024-12-21",
+        "amount": 3599.50,
+        "email": "vikramthakur@example.com",
+        "location": "Surat, India",
+        "item_purchased": "USB Hub",
+        "purchase_date": "2024-11-18",
+        "seller": {
+            "name": "ElectroMart",
+            "location": "Surat, India"
+        }
+    }
+  ]
+  
