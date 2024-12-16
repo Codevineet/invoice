@@ -1,27 +1,30 @@
 # Invoice Reminder and Follow-up Automation
+
 ## Description
-This application helps manage overdue invoices and automates the process of sending reminders to users via email. It consists of a backend built with Node.js and Express, and a frontend built with React. The application integrates Google OAuth for authentication and uses Zapier for automated email notifications when invoices are overdue.
+This application automates the process of managing overdue invoices and sending reminder notifications to users via email. It integrates a Node.js backend with Express for API handling and a React frontend for user interaction. Authentication is handled using Google OAuth, and the application leverages Zapier for automated email notifications when invoices are overdue.
 
 ## Prerequisites
-Before you begin, make sure you have the following installed on your system:
-- Node.js (v14.x or later)
-- npm (Node Package Manager)
+Before you begin, ensure you have the following software installed on your machine:
 
-$ tree
-invoice2/
+- **Node.js** (v14.x or later)
+- **npm** (Node Package Manager)
+
+## Directory Structure
+```plaintext
+invoice/
 ├── client/       # Frontend code
 │   ├── src/      # React components and views
 │   ├── package.json
 │   └── README.md
 ├── server/       # Backend code
-│   ├── config/   # Configuration files (e.g., passport setup)
-│   ├── controllers/ # Route handlers
-│   ├── middleware/ # Middleware (e.g., authentication)
+│   ├── config/  
+│   ├── controllers/
+│   ├── middleware/
 │   ├── routes/   # API routes
-│   ├── services/ # Services (e.g., invoice data fetching)
+│   ├── services/ 
 │   ├── data/     # Sample invoice data
-│   ├── .env       # Environment variables (e.g., Google OAuth, Zapier webhook URL)
+│   ├── .env       
 │   ├── package.json
-│   ├── README.md # This file
+│   ├── README.md 
 ├── .gitignore
-└── README.md     # This file
+└── README.md
