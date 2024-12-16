@@ -112,7 +112,6 @@ The application uses a local JSON file (data/invoices.json) to store invoice dat
      - Amount
      - Item purchased
      - Seller information
-     - User's location
    
 2. **Manual Trigger**:
    - Users have the option to manually trigger the Zapier automation from the frontend by clicking a button. This action sends a POST request to the `/zapier/trigger` endpoint on the backend.
