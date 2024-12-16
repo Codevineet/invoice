@@ -67,7 +67,7 @@ invoice/
    GOOGLE_CLIENT_SECRET=<your-google-client-secret>
    ZAPIER_WEBHOOK_URL=<your-zapier-webhook-url>
 ```
-Replace <your-session-secret>, <your-google-client-id>, <your-google-client-secret>, and <your-zapier-webhook-url> with the appropriate values for your application.
+Replace with the appropriate values for your application.
 
 ## Database
 
