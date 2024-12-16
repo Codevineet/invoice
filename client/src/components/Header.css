@@ -1,0 +1,115 @@
+.header-container {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.logo-text {
+  margin: 0;
+}
+
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-messagee {
+  font-size: 1rem;
+  color: white;
+}
+
+.user-email {
+  font-size: 0.875rem;
+  color: #ccc;
+}
+
+.contact-link {
+  background-color: #444; 
+  border: none;
+  color: #fff;
+  padding: 8px 20px; 
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem; 
+  border-radius: 4px; 
+  margin-left: 10px;
+  font-size: bold;
+}
+
+.contact-link:hover {
+  background-color: white;
+  color:black;
+}
+
+.logout-button,
+.login-button {
+  background-color: #ff5733;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover,
+.login-button:hover {
+  background-color: #e64a19;
+}

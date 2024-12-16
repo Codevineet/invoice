@@ -1,0 +1,60 @@
+.invoice-card {
+  background: linear-gradient(135deg, #f7f7f7 0%, #ffffff 100%);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  width: calc(100% - 40px); 
+  max-width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.invoice-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  border-color: #bbb; 
+}
+
+.invoice-card-content {
+  text-align: left;
+}
+
+.invoice-title {
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase; 
+}
+
+.invoice-card p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 13px;
+}
+
+.invoice-card p strong {
+  color: #333;
+}
+.status {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  display: inline-block; 
+  color: white; 
+}
+
+.status.red {
+  background-color: yellow; 
+}
+
+.status.green {
+  background-color: rgb(11, 181, 11); 
+  color:white;
+}
+
+
+
