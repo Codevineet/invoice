@@ -7,6 +7,7 @@ Before you begin, make sure you have the following installed on your system:
 - Node.js (v14.x or later)
 - npm (Node Package Manager)
 
+$ tree
 invoice2/
 ├── client/       # Frontend code
 │   ├── src/      # React components and views
