@@ -6,3 +6,21 @@ This application helps manage overdue invoices and automates the process of send
 Before you begin, make sure you have the following installed on your system:
 - Node.js (v14.x or later)
 - npm (Node Package Manager)
+
+invoice2/
+├── client/       # Frontend code
+│   ├── src/      # React components and views
+│   ├── package.json
+│   └── README.md
+├── server/       # Backend code
+│   ├── config/   # Configuration files (e.g., passport setup)
+│   ├── controllers/ # Route handlers
+│   ├── middleware/ # Middleware (e.g., authentication)
+│   ├── routes/   # API routes
+│   ├── services/ # Services (e.g., invoice data fetching)
+│   ├── data/     # Sample invoice data
+│   ├── .env       # Environment variables (e.g., Google OAuth, Zapier webhook URL)
+│   ├── package.json
+│   ├── README.md # This file
+├── .gitignore
+└── README.md     # This file
